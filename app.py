@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # --- CONFIGURACIÓN ---
 # Pega aquí tu API KEY de Google AI Studio entre las comillas
-GOOGLE_API_KEY = "TU_API_KEY_AQUI_LITERAL"
+GOOGLE_API_KEY = "AQ.Ab8RN6KHpNeLT-RaEzDA2U2STm9APWiTsO6Z8yYdR85QKXLKsA"
 
 # Configuramos Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
