@@ -8,7 +8,7 @@ GOOGLE_API_KEY = "AQ.Ab8RN6KHpNeLT-RaEzDA2U2STm9APWiTsO6Z8yYdR85QKXLKsA"
 # Configuramos Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
 # Usamos un modelo rápido y bueno para chat
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 st.set_page_config(page_title="Runner Caffè Italiano", page_icon="☕")
 
